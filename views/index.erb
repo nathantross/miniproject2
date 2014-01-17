@@ -1,0 +1,28 @@
+<!-- Index Page -->
+
+<div>
+<h2>Welcome to IMDB</h2>
+
+<h1>Find a Movie!</h1>
+  <form accept-charset="UTF-8" action="/result" method="post">
+    <label for="movie">Search for:</label>
+    <input id="movie" name="movie" type="text" />
+    <input name="commit" type="submit" value="Search" /> 
+  </form></body></html>
+		<form action="/animals" method="POST">
+
+			params[:foo] in sinatra
+			<input type="text" name="animal[species]">
+			<textarea name="animal[description]">
+			</textarea>
+			<button>SUBMIT</button>
+		</form>
+
+		<% @animals.each do |animal| %>
+			<div>
+				SPECIES: <%= animal[:species] %> <br>
+				Descripton: <%= animal[:description] %>
+			<% end %>
+
+
+</div>
